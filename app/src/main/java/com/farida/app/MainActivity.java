@@ -160,7 +160,7 @@ public class MainActivity extends Activity {
 
         if (command.contains("youtube")) {
             speak("YouTube khol rahi hoon.");
-            openUrl("https://www.youtube.com");
+            openApp("com.google.android.youtube", "YouTube");
         } else if (command.contains("chrome") || command.contains("browser")) {
             speak("Browser khol rahi hoon.");
             openUrl("https://www.google.com");
@@ -175,6 +175,19 @@ public class MainActivity extends Activity {
             }
         } else {
             speak("Aapne kaha: " + text);
+        }
+    }
+
+    private void openApp(String packageName, String appName) {
+        try {
+            Intent intent = getPackageManager().getLaunchIntentForPackage(packageName);
+            if (intent != null) {
+                startActivity(intent);
+            } else {
+                speak(appName + " phone mein installed nahi hai.");
+            }
+        } catch (Exception e) {
+            speak(appName + " nahi khul pa raha hai.");
         }
     }
 
