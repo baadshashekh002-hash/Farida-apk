@@ -1,0 +1,7 @@
+com.farida.app-pngs-0 /data/data/com.termux/files/home/farida-apk/app/build/generated/res/pngs/debug
+com.farida.app-resValues-1 /data/data/com.termux/files/home/farida-apk/app/build/generated/res/resValues/debug
+com.farida.app-packageDebugResources-2 /data/data/com.termux/files/home/farida-apk/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.farida.app-packageDebugResources-3 /data/data/com.termux/files/home/farida-apk/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.farida.app-debug-4 /data/data/com.termux/files/home/farida-apk/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.farida.app-debug-5 /data/data/com.termux/files/home/farida-apk/app/src/debug/res
+com.farida.app-main-6 /data/data/com.termux/files/home/farida-apk/app/src/main/res
